@@ -44,7 +44,7 @@ sudo apt install codeblocks
 
 ```sh
 # Create a folder for the Code::Blocks project
-cd basic-cpp-sdl-project
+cd PokeBlue
 mkdir -p build/codeblocks
 cd build/codeblocks
 
@@ -53,7 +53,7 @@ cmake ../.. -G "CodeBlocks - Unix Makefiles"
 ```
 
 *Open the project:*<br>
-Run Code::Blocks, and open the project in `basic-cpp-sdl-project/build/codeblocks`.<br>
+Run Code::Blocks, and open the project in `PokeBlue/build/codeblocks`.<br>
 Finally, build and run the project.
 
 
@@ -72,15 +72,15 @@ Offline package: https://www.eclipse.org/downloads/packages
 
 ```sh
 # Create a folder for the Eclipse project outside this project
-cd basic-cpp-sdl-project
-mkdir ../eclipse-basic-cpp-sdl-project
-cd ../eclipse-basic-cpp-sdl-project
+cd PokeBlue
+mkdir ../eclipse-PokeBlue
+cd ../eclipse-PokeBlue
 
 # Generate an Eclipse project
-cmake ../basic-cpp-sdl-project -G "Eclipse CDT4 - Unix Makefiles"
+cmake ../PokeBlue -G "Eclipse CDT4 - Unix Makefiles"
 ```
 *Open the project:*<br>
-Run Eclipse, and open the project in `eclipse-basic-cpp-sdl-project`.<br>
+Run Eclipse, and open the project in `eclipse-PokeBlue`.<br>
 Create a new run configuration: Go to `Run` &gt; `Run configurations` &gt;
 `C\C++ Application` and specify the C/C++ Application using `Search Project...`<br>
 Finally, build and run the project.
